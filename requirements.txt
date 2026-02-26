@@ -1,0 +1,39 @@
+# --- Web Server ---
+fastapi==0.110.3
+uvicorn==0.29.0
+python-multipart==0.0.9
+
+# --- AI Agents & Embedchain ---
+crewai==0.130.0 
+crewai-tools==0.47.1
+embedchain==0.1.128
+langsmith>=0.3.18,<0.4.0
+
+# --- The Pydantic & Instructor Fix ---
+pydantic==2.7.4
+pydantic-core==2.18.4
+
+# --- The LangChain Suite ---
+langchain-core==0.3.31
+langchain-community==0.3.15
+langchain-google-genai==2.0.1
+
+# --- Google AI & Protobuf Fix ---
+google-generativeai==0.8.3
+google-ai-generativelanguage==0.6.10
+protobuf==5.26.1
+
+# --- OpenTelemetry Aligned Suite ---
+opentelemetry-api==1.30.0
+opentelemetry-sdk==1.30.0
+opentelemetry-semantic-conventions==0.51b0
+opentelemetry-exporter-otlp-proto-grpc==1.30.0
+opentelemetry-instrumentation==0.51b0
+opentelemetry-instrumentation-fastapi==0.51b0
+
+# --- Utilities ---
+PyPDF2==3.0.1
+numpy==1.26.4
+onnxruntime==1.22.0
+click==8.1.8
+tiktoken>=0.8.0
